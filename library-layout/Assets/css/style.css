@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(212, 206, 198);
+    font-size: 30px;
+}
+.text{
+    position: relative;
+    left: 40%;
+    color: black;
+}
+.author{
+    text-align:center
+}
+.name{
+    text-align:center;
+}
+.stickyImg{
+    position: absolute;
+    left: 10%;
+    top: 25%;
+    width: 20%;
+    height: 50%;
+}
+.headTable{
+    text-align: center;
+    font-size: 23px;
+    position: absolute;
+    left:1%;
+    top: 15%;
+    width: 98%;
+    height: 80%;
+}
+.siteHeading{
+    position: relative;
+    font-size: 37px;
+    left: 5%;
+    font-style: italic;
+    color: rgb(33, 59, 58);
+}
+.siteIcon{
+    position:absolute;
+    top: 2%;
+    left: 1%;
+    width: 3%;
+    height: 6%;
+}
+.ll{
+    position: relative;
+    left: 25%;
+    color: black;
+}
+.lr{
+    position: relative;
+    left: 50%;
+    color: black;
+}
+.ep{
+    position: relative;
+    left: 55%;
+    font-size: 25px;
+    font-style: italic;
+}
+.epau{
+    position: relative;
+    left: 60%;
+    font-size: 25px;
+    font-style: italic;
+}
+.slink{
+    position: fixed;
+    color: black;
+    font-size: 20px;
+}
