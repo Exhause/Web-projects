@@ -1,0 +1,42 @@
+body{
+    user-select: none;
+    background: burlywood;
+}
+
+.screen{
+    background: rgb(129, 214, 158);
+    width: 88%;
+    font-size: 25px;
+}
+
+.calculator{
+    position: absolute;
+    border-radius: 3%;
+    width: 30%;
+    left: 30%;
+    top: 10%;
+    background: rgb(38, 134, 212);
+    padding: 2%;
+}
+
+.clear{
+    padding-left: 21%;
+    padding-right: 22%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background: cornflowerblue;
+}
+.back{
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background: cornflowerblue;
+}
+.num{
+    width: 22%;
+    padding: 5%;
+    background: cornflowerblue;
+    font-size: 25px;
+ }
+ 

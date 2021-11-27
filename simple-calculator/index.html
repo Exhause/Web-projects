@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Калькулятор</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='Assets/css/style.css'>
+</head>
+<body>
+    <div class = "calculator">
+        <input class = "screen" id="input" disabled>
+        <button class = "num" onclick="clearS();">C</button>
+        <button class = "num" onclick="clearC();">&lArr;</button>
+        <button class = "num" onclick="read('(');">(</button>
+        <button class = "num" onclick="read(')');">)</button>
+        <button class = "num" onclick="read('7');">7</button>
+        <button class = "num" onclick="read('8');">8</button>
+        <button class = "num" onclick="read('9');">9</button>
+        <button class = "num" onclick="read('/');">&divide;</button>
+        <button class = "num" onclick="read('4');">4</button>
+        <button class = "num" onclick="read('5');">5</button>
+        <button class = "num" onclick="read('6');">6</button>
+        <button class = "num" onclick="read('*');">&times;</button>
+        <button class = "num" onclick="read('1');">1</button>
+        <button class = "num" onclick="read('2');">2</button>
+        <button class = "num" onclick="read('3');">3</button>
+        <button class = "num" onclick="read('+');">+</button>
+        <button class = "num" onclick="read('0');">0</button>
+        <button class = "num" onclick="read('.');">.</button>
+        <button class = "num" onclick="process();">=</button>
+        <button class = "num" onclick="read('-');">-</button>
+    </div>
+    <script src='Assets/js/script.js'></script>
+</body>
+</html>
