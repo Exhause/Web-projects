@@ -19,10 +19,7 @@ function clearC()
 
 function read( a )
 {
-    if(a=='p')
-        s = s+Math.PI;
-    else
-        s = s+a;
+    s = s+a;
     update();
 }
 
